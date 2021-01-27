@@ -6,7 +6,7 @@ import socket
 
 @Gooey
 def parse_args():
-    parser = GooeyParser(description="Sélection du dossier à partager")
+    parser = GooeyParser(description="Outil de partage de fichier en réseau local")
     parser.add_argument('dirName', help='Nom du répértoire',
                         widget="DirChooser")
     return parser.parse_args()
