@@ -4,7 +4,7 @@ import subprocess
 import socket
 
 
-@Gooey
+@Gooey(language='french')
 def parse_args():
     parser = GooeyParser(description="Outil de partage de fichier en réseau local")
     parser.add_argument('dirName', help='Nom du répértoire',
